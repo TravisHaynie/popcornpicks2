@@ -260,6 +260,13 @@ footer {
 
     }
     
+    .modal-content {
+        background-color: #3498dbb5;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 100%;
+    
 }
 
 @media screen and (max-width: 600px) {
