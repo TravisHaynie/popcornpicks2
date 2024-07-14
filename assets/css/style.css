@@ -290,9 +290,16 @@ footer {
       width: 50%;
      margin:auto;
      text-align: center;
-
     }
     
+    .modal-content {
+        background-color: #3498dbb5;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 60%;
+        max-height: 50%;
+    }
 }
 
 @media screen and (max-width: 600px) {
