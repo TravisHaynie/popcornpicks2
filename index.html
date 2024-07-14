@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopcornPicks Movie Watchlist</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-narrow animated-logo">
+                     <img  src="./assets/img/logo.png" alt="PopcornPicks Logo" id="popcorn" class="logo"> 
+                    </div>
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 animated-title">PopcornPicks</h1>
+                    </div>
+                    <div class="column is-narrow">
+                        <nav class="navbar is-dark animated-watchlist" role="navigation" aria-label="main navigation">
+                            <div>
+                                <div class="navbar-start">
+                                    <a class="navbar-item is-1" href="watchlist.html">Watchlist</a>
+                                    <!-- Link to the watchlist page -->
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="section">
+        <!-- Modal Section -->
+        <div class="modal" id="modal">
+            <div></div>
+            <div class="modal-content">
+                Added to watchlist
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Home Section -->
+            <section id="homeSection" class="section">
+                <!-- Search Section -->
+                <section class="search-section">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input is-dark" type="text" id="movieSearch"
+                                placeholder="Search for Movie titles">
+                        </div>
+                        <div class="control">
+                            <button class="button is-info" id="searchButton">Search</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Results Section -->
+                <section id="results" class="section">
+                    <!-- Movie boxes will be populated here dynamically -->
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer is-small has-background-dark" id="movieTitle">
+        <div class="content has-text-centered">
+            <!-- PopcornPicks Footer -->
+            <p class="has-text-white"><strong class="has-text-white">PopcornPicks</strong> by <a
+                    href="https://github.com/Robert-Ulloa/PopcornPicks">JRT</a>.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
