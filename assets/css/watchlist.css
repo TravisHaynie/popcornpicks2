@@ -242,7 +242,7 @@ footer {
     font-weight: bolder;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
 
     #popcorn {
         display:none;
