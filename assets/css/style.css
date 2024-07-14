@@ -297,8 +297,7 @@ footer {
         color: white;
         padding: 20px;
         border-radius: 5px;
-        max-width: 60%;
-        max-height: 50%;
+        max-width: 100%;
     }
 }
 
